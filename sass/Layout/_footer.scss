@@ -1,0 +1,37 @@
+.footer{
+    background-color: #353535;
+    color: white;
+    list-style-type: none;
+    padding: 5px 0 10px 0px;
+
+    h2{
+        padding: 0 0 0 20px;
+    }
+    
+    ul{
+        list-style-type: none;
+        color: white;
+        padding: 0 0 0 20px;
+    
+
+        li{
+            margin: 5px 0;
+        }
+
+    
+        i{
+            padding: 0 8px 0 0;
+        }
+
+        #icone_mains{
+            font-size: 0.9rem;
+        }
+
+        
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    
+}

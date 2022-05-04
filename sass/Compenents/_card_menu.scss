@@ -1,0 +1,104 @@
+.card_menu{
+    
+    height: 100px;
+    margin: 10px 10px;
+    padding: 0 0 0 10px;
+    box-shadow: 0px 4px 5px #E7E7E7;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    animation: slide 2s linear reverse;
+    opacity: 0;
+
+}
+
+.card_menu_text{
+    width: 75%;
+    font-size: 100%;
+
+}
+
+
+a:hover .card_menu_text{
+    width: 60%;
+     
+    
+  }
+  
+  a:hover .card_menu_text p{
+     white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+      
+  }
+
+.one{
+    animation: slide 2s linear reverse 1s forwards;  
+}
+
+.two{
+    animation: slide 2s linear reverse 2s forwards;  
+}
+
+.three{
+    animation: slide 2s linear reverse 3s forwards;  
+}
+
+.four{
+    animation: slide 2s linear reverse 4s forwards;
+}
+
+
+.card_menu_prix{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.check{
+display: flex; 
+   align-items: center; 
+   justify-content: center;
+   background-color: #99E2D0;
+   width: 100px;
+   border-radius: 20px  0 0 20px;
+   margin-right: -150px; 
+   transition: all 2s;
+ }
+
+ .check_box
+ {
+     transition: all 2s;
+ }
+
+ .card_menu i{
+     background-color: #99E2D0;
+     color: white;
+     font-size: 40px;
+ }
+
+
+
+ a:hover .check{
+    margin-right: 0;
+     
+  }
+
+  a:hover .check .check_box {
+  
+    transform: rotate(360deg);
+      
+}
+
+@keyframes slide{
+    0%{ opacity: 1;
+    }
+    
+    100%{ opacity: 0;
+    }
+    
+  }
+

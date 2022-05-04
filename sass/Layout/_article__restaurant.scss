@@ -1,0 +1,36 @@
+#restaurants{
+    background-color: $couleur-gris;
+    padding: 15px 0;
+
+    h2{
+        margin: 0 20px;
+    }
+    
+}
+
+@media (min-width: 768px)
+{
+
+    .restaurants_container{
+        
+        display: flex;
+
+    }
+
+    .restaurants_container_1{
+        
+        flex-grow: 1;
+
+    }
+
+    .restaurants_container_2{
+
+        flex-grow: 1;
+
+    }
+
+
+
+    
+    
+}

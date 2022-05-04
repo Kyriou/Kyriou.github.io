@@ -1,0 +1,14 @@
+.card__new{
+    border-radius: 2px;
+    background-color: $couleur-tertiaire ;
+    color: #139273;
+    position: absolute;
+    right: 1em;
+    margin: 5px;
+    
+    &__text{
+        margin: 0;
+        padding: 5px;
+    }
+}
+

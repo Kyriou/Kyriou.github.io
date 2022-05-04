@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #EAEAEA;
+    border-top: 4px solid #DDDDDD ;
+
+    &__input{
+        background-color: #EAEAEA;
+        border: none;
+        margin: 0px 10px;
+        
+    }
+    
+}

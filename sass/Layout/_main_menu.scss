@@ -1,0 +1,59 @@
+.main_menu {
+    background-color: $couleur-gris;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px 40px 0 0;
+
+    h2{
+        padding: 0 0 0 12px;
+    }
+
+    .menu_container_1 h2{
+        padding: 0 0 0.5em 0;
+        border-bottom: 3px solid $couleur-tertiaire;
+        width: 55px;
+    }
+
+    .menu_container_2 h2{
+        padding: 0 0 0.5em 0;
+        border-bottom: 3px solid $couleur-tertiaire;
+        width: 55px;
+    }
+
+    .menu_container_3 h2{
+        padding: 0 0 0.5em 0;
+        border-bottom: 3px solid $couleur-tertiaire;
+        width: 55px;
+    }
+    
+    .titre_menu {
+        position: relative;
+        margin-top: -35px;
+    }
+
+
+
+    
+}
+
+@media (min-width: 768px) {
+   
+      
+    .menu_container {
+         display: flex;
+    }
+
+    .menu_container_1{
+        flex-grow: 1;
+    }
+
+    .menu_container_2{
+        flex-grow: 1;
+    }
+
+    .menu_container_3{
+        flex-grow: 1;
+    }
+
+
+}

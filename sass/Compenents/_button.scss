@@ -1,0 +1,47 @@
+.btn{
+    padding: 10px 20px;
+    background : linear-gradient( #FF79DA, #9356DC);
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    transition: transform 1s ease, box-shadow 1s ease, opacity 1s ease ;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.16);
+    opacity: 0.9;
+}
+
+.btn-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    background-color: $couleur-gris;
+    position: relative;
+    transition: background-color 1s ease , color 1s ease, transform 1s ease  ;
+
+    i{
+        color: #7E7E7E;
+    }
+}
+
+.btn-nav:hover{
+    background-color: #F5EDFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    i{
+        color: #9356DC;
+    }
+}
+
+.btn-nav:active{
+    transform: scale(0.9);
+}
+
